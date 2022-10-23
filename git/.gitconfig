@@ -1,0 +1,9 @@
+[alias]
+    co = checkout
+    br = branch
+    cm = commit
+    st = status
+    pick = cherry-pick
+    unstage = "reset HEAD --"
+    unstage-all = "reset"
+    last = "log -1 HEAD"
