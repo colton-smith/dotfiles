@@ -7,3 +7,6 @@
     unstage = "reset HEAD --"
     unstage-all = "reset"
     last = "log -1 HEAD"
+[user]
+	email = cnsmith@mun.ca
+	name = Colton Smith
