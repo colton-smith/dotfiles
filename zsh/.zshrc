@@ -44,7 +44,8 @@ zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
 zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
 # Aliases
-alias ll="ls -lah"
+DISABLE_LS_COLORS=false
+alias ll="ls -lah --color=auto --group-directories-first"
 
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
