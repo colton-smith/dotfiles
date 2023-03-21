@@ -43,6 +43,9 @@ zstyle ':completion:*' verbose true
 zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
 zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
+bindkey "^[[1;5D" backward-word
+bindkey "^[[1;5C" forward-word
+
 # Aliases
 DISABLE_LS_COLORS=false
 alias ll="ls -lah --color=auto --group-directories-first"
