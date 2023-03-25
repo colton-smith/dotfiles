@@ -10,3 +10,5 @@
 [user]
 	email = cnsmith@mun.ca
 	name = Colton Smith
+[core]
+	editor = vim
