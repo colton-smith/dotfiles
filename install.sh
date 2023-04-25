@@ -5,6 +5,8 @@ sudo apt install stow
 sudo apt install zsh
 sudo apt instal tmux 
 sudo apt install curl
+sudo apt install cowsay
+sudo apt install fortune
 
 # Oh my zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
